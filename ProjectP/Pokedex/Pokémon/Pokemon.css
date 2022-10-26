@@ -1,0 +1,457 @@
+.Tipos img{
+    width: 150px;
+    height: 150px;
+}
+
+body {
+    background-color: #384c6e;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+	transition: 0.3s;
+}
+
+a:hover {
+	opacity: 0.7;
+}
+
+.logo {
+	font-size: 24px;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+}
+
+.nav-a{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+	background: #23232e;
+	height: 8vh
+}
+
+.nav-list {
+	list-style: none;
+	display: flex;
+}
+
+.nav-list li {
+	letter-spacing: 3px;
+	margin-left: 32px;
+}
+
+nav {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+	background: #23232e;
+	height: 8vh
+}
+
+ul.sub-menu {
+	position: absolute;
+	background-color: #23232e;
+	list-style-type: none;
+	width:125px;
+	padding-left: 0px;
+	margin-left: -25px;
+	padding-top: 30px;
+    opacity: 0;
+}
+
+.nav-a li:hover .sub-menu{
+	opacity: 1;
+}
+
+ul.sub-menu li:hover{
+	color:white;
+    background:#656565;
+}
+
+#text-in-the-box {
+	text-align: center;
+	color: white;
+	font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+	font-size: 24px;
+}
+
+#text-box {
+	position: relative;
+	top: 150px;
+}
+
+.container {
+    padding: 40px;
+    margin: 0 auto;
+}
+
+h1 {
+	font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+	font-size: 36px;
+	text-align: center;
+}
+
+#fuck a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #f1f1f1;
+    color: black;
+  }
+  
+#fuck a:hover {
+    color: black;
+    border-radius: 50%;
+    background-color: #04AA6D;
+  color: white;
+  }
+
+.table-bordered td, .table-bordered th {
+    border: 1px solid #dee2e6;
+}
+
+.table-sm td, .table-sm th {
+    padding: 0.3rem;
+}
+
+.table td, .table th {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+td img{
+    position: relative;
+    top: 10px;
+    
+}
+
+td a {
+    color: black;
+    font-weight: bold;
+}
+
+table {
+    border-collapse: collapse;
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
+    background-color: #e8e2e1;
+}   
+
+#poketype {
+    font-size: 20px;
+    background-color: white;
+    opacity: .8;
+    padding: 5px;
+    text-align: center;
+}
+
+table img {
+    width: 70px;
+    height: 60px;
+}
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+    position: relative;
+    width: 200px;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+/*Cor dos tipos no pokedex*/
+.gra {
+    background: #89D26B;
+}
+.poi {
+    background: #c53bcc;
+}
+.fir {
+    background: red;
+}
+.fly {
+    background: #338ba3;
+}
+.wat {
+    background: blue;
+}
+.ice {
+    background: #4fc3e3;
+}
+.fig {
+    background: #ba5d27;
+}
+.bug {
+    background: #135202;
+}
+.gho {
+    background: #3c3254;
+}
+.roc {
+    background: #4d240b;
+}
+.gro {
+    background: #d47c46;
+}
+.ele {
+    background: #ada52d;
+}
+.ste {
+    background: #7fdbb3;
+}
+.psy {
+    background: #bf20d4;
+}
+.fai {
+    background: #871774;
+}
+.dra {
+    background: #443a99;
+}
+.dar {
+    background: #38353d;
+}
+.nor {
+    background: #767578;
+}
+
+.male {
+    color: blue;
+    font-weight: bold;
+    position: absolute;
+    left: 275px;
+    top: 565px;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+}
+
+.female {
+    color: #bf20d4;
+    font-weight: bold;
+    position: absolute;
+    left: 275px;
+    top: 610px;
+}
+
+.row{display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-right:-15px;margin-left:-15px}
+
+.tipos img {
+    width: 150px;
+    height: 150px;
+}
+
+.tipos {
+    border-bottom: 3px solid black;
+    width: 395px;
+    border-right: 3px solid black;
+}
+
+.tipos h2{
+    font-weight: bold;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    border-bottom: 3px solid black;
+    padding: 10px;
+    background: gray;
+}
+
+.PokeAnimado {
+    position: absolute;
+    left: 420px;
+    top: 280px;
+    width: 470px;
+    height: 450px;
+    background: gray;
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 5px;
+}
+
+.informacao {
+    position: absolute;
+    left: 1000px;
+    top: 280px;
+    border: 3px solid black;
+    border-radius: 12px;
+    padding: 5px;
+    width: 800px;
+    background-color: white;
+}
+
+.informacao h1{
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    border-bottom: 3px solid black;
+    
+}
+
+.PokeAnimado img{
+    width: 450px;
+    height: 400px;
+    position: absolute;
+}
+
+.dados {
+    border-bottom: 3px solid black;
+    width: 395px;
+    border-right: 3px solid black;
+}
+
+.dados p{
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.dados h2, h3, h4{
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 10px;
+    border-bottom: 3px solid black;
+    background: gray;
+}
+.dadosn2 {
+    width: 395px;
+    border-right: 3px solid black;
+}
+
+.dadosn3 {
+    position: absolute;
+    left: 400px;
+    top: 56px;
+    width: 390px;
+}
+
+.dadosn3 p {
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    position: absolute;
+    top: 50px;
+    width: 390px;
+    border-bottom: 3px solid black;
+    padding: 20px;
+}
+
+.dadosn4 {
+    position: absolute;
+    left: 400px;
+    top: 173px;
+    width: 390px;
+}
+
+.dadosn4 p {
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    position: absolute;
+    top: 50px;
+    width: 390px;
+    border-bottom: 3px solid black;
+    padding: 20px;
+}
+
+.dadosn5 {
+    position: absolute;
+    left: 400px;
+    top: 289px;
+    width: 390px;
+}
+
+.dadosn5 p {
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    position: absolute;
+    top: 50px;
+    width: 390px;
+    height: 190px;
+    border-bottom: 3px solid black;
+    padding: 20px;
+}
+
+.dadosn6 {
+    position: absolute;
+    left: 400px;
+    top: 529px;
+    width: 390px;
+}
+
+.dadosn6 audio{
+    position: absolute;
+    left: 20px;
+    top: 60px;
+    height: 100px;
+    width: 350px;
+}
+
+.box .percent svg circle:nth-child(1){
+    stroke-dashoffset: 0;
+    stroke: blue;
+}
+
+.box .percent svg circle:nth-child(2){
+    stroke-dashoffset: calc(440 - (440 * 12.5) / 100);
+    stroke: #bf20d4;
+}
+
+.box .percent svg circle{
+    width: 100px;
+    height: 120px;
+    fill:none;
+    stroke-width: 10;
+    stroke: #000;
+    transform: translate(5px,5px);
+    stroke-dasharray: 440;
+    stroke-dashoffset: 440;
+}
+
+.box .percent svg {
+    position: absolute;
+    left: 75px;
+    top: 535px;
+}
+
+.biology {
+    position: absolute;
+    left: 400px;
+    top: 1000px;
+    padding: 5px;
+    width: 1400px;
+}
+
+.biology h5{
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 10px;
+    background: gray;
+    border-radius: 12px;
+}
+
+.biology p {
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    position: absolute;
+    top: 60px;
+    width: 1390px;
+    padding: 20px;
+    background: white;
+    border-radius: 12px;
+    text-align: justify;
+}
